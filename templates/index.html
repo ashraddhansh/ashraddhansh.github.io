@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+  This is my blog made with Zola.
+</h1>
+<h2>
+  <a href="https://github.com/ashraddhansh">Github</a>
+</h2>
+<p>
+  My name is Arpit Shraddhansh. I am enthusiastic about open source, linux, devOps, scripting. I am also fond of automating unnecessary things.
+</p>
+
+<p><a href="{{ get_url(path='@/blog/_index.md') }}">Posts</a></p>
+{% endblock content %}
