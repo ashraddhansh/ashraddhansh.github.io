@@ -6,20 +6,20 @@ date = 2025-03-05
 # Directory
 - It is a special type of file in a Linux file-system.
 - It acts as a container for other files and directories.
-- The content stored in a directory is essentially a list of [Directory Entry](@/blog/directory-entry.md).
+- The content stored in a directory is essentially a list of [Directory Entry](@/posts/directory-entry.md).
 - These are organized in hierarchical structure.
 - In Linux everything is a file.
 # Directory Entry
 - It is a record in a directory.
 - It associates or maps a file name(human readable) with its inode number in a file-system.
 - A directory entry contains the file name and pointer to the file's inode.
-- It is stored in [Directory](@/blog/directory.md).
-- It doesn't store the file metadata that is done by [Inode(Index Node)](@/blog/inode.md)
+- It is stored in [Directory](@/posts/directory.md).
+- It doesn't store the file metadata that is done by [Inode(Index Node)](@/posts/inode.md)
 
 # Inode(Index Node)
 - Inode is a date structure.
 - It stores the metadata and other information of files except the file name.
-- Each file and [Directory](@/blog/directory.md) has its own unique inode.
+- Each file and [Directory](@/posts/directory.md) has its own unique inode.
 ## Type of Info stored in Inode
 ### 1. Metadata
 - File type
@@ -27,11 +27,11 @@ date = 2025-03-05
 - Owner and Group ID(UID & GID)
 - File size
 - Timestamps (birth, access, modification, change times)
-- Number of [Hard link](@/blog/hard-link.md) & [Soft Link (Symbolic Link)](@/blog/soft-link.md).
+- Number of [Hard link](@/posts/hard-link.md) & [Soft Link (Symbolic Link)](@/posts/soft-link.md).
 ### 2. Location of Data blocks
 Pointers of the disk blocks where data is stored.
 
-_the file name and the directory path is not stored in inode these info are managed separately by [Directory Entry](@/blog/directory-entry.md) that map file names to inode numbers._
+_the file name and the directory path is not stored in inode these info are managed separately by [Directory Entry](@/posts/directory-entry.md) that map file names to inode numbers._
 ## Working of Inode
 - Each file and directory has its inode.
 - When new file or directory is created the file-system assigns a unused inode to it.

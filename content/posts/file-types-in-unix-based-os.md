@@ -3,7 +3,6 @@ title = "File Types in Unix Based OSs"
 date = 2019-11-27
 +++
 
-This is my first blog post.
 There are 7 types of files in a UNIX like environment:
 1. Regular File
 2. Directories

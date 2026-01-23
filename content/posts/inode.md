@@ -5,7 +5,7 @@ date = 2019-11-27
 
 - Inode is a date structure.
 - It stores the metadata and other information of files except the file name.
-- Each file and [Directory](@/blog/directory.md) has its own unique inode.
+- Each file and [Directory](@/posts/directory.md) has its own unique inode.
 # Type of Info stored in Inode
 ## Metadata
 - File type
@@ -13,7 +13,7 @@ date = 2019-11-27
 - Owner and Group ID(UID & GID)
 - File size
 - Timestamps (birth, access, modification, change times)
-- Number of [Hard link](@/blog/hard-link.md) & [Soft Link (Symbolic Link)](@/blog/soft-link.md)
+- Number of [Hard link](@/posts/hard-link.md) & [Soft Link (Symbolic Link)](@/posts/soft-link.md)
 ## Location of Data blocks
 Pointers of the disk blocks where data is stored.
 
