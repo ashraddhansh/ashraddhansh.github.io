@@ -1,6 +1,6 @@
 +++
 title = "Directory"
-date = 2019-11-27
+date = 2025-03-05
 +++
 - It is a special type of file in a Linux file-system.
 - It acts as a container for other files and directories.

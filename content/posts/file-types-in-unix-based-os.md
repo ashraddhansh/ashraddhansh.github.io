@@ -1,6 +1,6 @@
 +++
 title = "File Types in Unix Based OSs"
-date = 2019-11-27
+date = 2025-05-05
 +++
 
 There are 7 types of files in a UNIX like environment:

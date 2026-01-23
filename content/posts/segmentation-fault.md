@@ -1,6 +1,6 @@
 +++
 title = "Segmentation Fault(segfault)"
-date = 2019-11-27
+date = 2025-01-14
 +++
 
 

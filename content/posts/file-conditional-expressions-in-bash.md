@@ -1,6 +1,6 @@
 +++
 title = "File Conditional Expressions in Bash"
-date = 2019-11-27
+date = 2025-05-04
 +++
 
 # What are conditional expressions?

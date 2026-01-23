@@ -1,6 +1,6 @@
 +++
 title = "Soft Link(Symbolic Link)"
-date = 2019-11-27
+date = 2025-01-14
 +++
 - Soft links(symbolic links) are specific files that points to the **path** of another file or directory.
 - Acts as a shortcut of the original file. 

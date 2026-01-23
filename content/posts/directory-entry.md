@@ -1,6 +1,6 @@
 +++
 title = "Directory Entry"
-date = 2019-11-27
+date = 2025-03-05
 +++
 - It is a record in a directory.
 - It associates or maps a file name(human readable) with its inode number in a file-system.

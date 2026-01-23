@@ -1,6 +1,6 @@
 +++
 title = "Hard Link"
-date = 2019-11-27
+date = 2025-03-05
 +++
 - Hard link is a directory entry that maps the file name with an inode in a file-system.
 - A hard link creates a additional name for the same file, pointing at the same inode thus referring the same data.

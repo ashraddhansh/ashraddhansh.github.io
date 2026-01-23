@@ -1,6 +1,6 @@
 +++
 title = "Inode(Index Node)"
-date = 2019-11-27
+date = 2025-03-05
 +++
 
 - Inode is a date structure.
