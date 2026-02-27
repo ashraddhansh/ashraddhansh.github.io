@@ -11,7 +11,7 @@ sudo archlinux-java set jdk11-opnjdk
 ```
 
 # Download the Hadoop Binary
-First download the latest hadoop binary. I am using `curl` but you can browser to download from this url [Index of /hadoop/common](https://downloads.apache.org/hadoop/common/)
+First download the latest hadoop binary. I am using `curl` but you can use browser to download from this url [Index of /hadoop/common](https://downloads.apache.org/hadoop/common/)
 
 ```
 curl -O https://downloads.apache.org/hadoop/common/hadoop-3.4.3/hadoop-3.4.3.tar.gz
@@ -61,7 +61,7 @@ First change directory to
 ```
 cd /opt/hadoop/etc/hadoop
 ```
-Edit the `core-site.xml` file. Inside `<configuration>` tag add
+Edit the `core-site.xml` file. Inside `<configuration>` tag add:
 
 ```
 <property>
@@ -70,7 +70,7 @@ Edit the `core-site.xml` file. Inside `<configuration>` tag add
 </property>
 ```
 
-Now edit the `hdfs-site.xml`. Inside `<configuration>` tag add
+Now edit the `hdfs-site.xml`. Inside `<configuration>` tag add:
 
 ```
 <property>
@@ -89,7 +89,7 @@ Now edit the `hdfs-site.xml`. Inside `<configuration>` tag add
 </property>
 ```
 
-Similarily in `mapred-site.xml`, inside `<configuration>` tag add
+Similarily in `mapred-site.xml`, inside `<configuration>` tag add:
 
 ```
 <property>
@@ -125,7 +125,7 @@ Similarily in `mapred-site.xml`, inside `<configuration>` tag add
 </property>
 ```
 
-And now in `yarn-site.xml` add
+And now in `yarn-site.xml` add:
 
 ```
 <property>
@@ -152,19 +152,19 @@ And now in `yarn-site.xml` add
 ```
 
 # Configuring SSH
-To acces the hadoop we need to configue the SSH. First install the SSH if not installed already
+To acces the hadoop we need to configue the SSH. First install the SSH if not installed already:
 
 ```
 sudo pacman -S openssh
 ```
 
-Enable and start the SSH service
+Enable and start the SSH service:
 
 ```
 sudo systemctl enable sshd
 sudo systemctl start sshd
 ```
-Generate SSH Keys
+Generate SSH Keys:
 
 ```
 ssh-keygen -t rsa -P ""
@@ -198,7 +198,7 @@ export JAVA_HOME=/usr/lib/jvm/java-11-openjdk
 ```
 ssh localhost
 ```
-You will be connected to the new shell.
+You will be connected to the new shell. Run the below command in that shell.
 
 # Format the HDFS
 ```
