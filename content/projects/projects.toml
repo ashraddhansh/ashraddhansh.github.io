@@ -1,6 +1,6 @@
 [[collection]]
 type = "card"
-title = "civic-ops"
+title = "Civicops"
 link = "https://github.com/ashraddhansh/civic-ops"
 content = "civic-ops is a moblie application by which users can report civic issues to the municipality."
 
@@ -9,7 +9,7 @@ content = "civic-ops is a moblie application by which users can report civic iss
 type = "card"
 title = "Dot Matrix CLI"
 link = "https://github.com/ashraddhansh/dot-matrix-cli"
-content = "A minimal terminal-based ASCII art generator written in Python that converts images into text using adaptive brightness mapping, colorized output, and Sobel edge detection"
+content = "A minimal terminal-based ASCII art generator written in Python that converts images into text using adaptive brightness mapping, colorized output, and Sobel edge detection."
 
 [[collection]]
 type = "card"
