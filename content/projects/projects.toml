@@ -1,24 +1,22 @@
-[[collection]]
-type = "card"
+layout = "card"
+
+[[item]]
 title = "Civicops"
 link = "https://github.com/ashraddhansh/civic-ops"
 content = "civic-ops is a moblie application by which users can report civic issues to the municipality."
 
 
-[[collection]]
-type = "card"
+[[item]]
 title = "Dot Matrix CLI"
 link = "https://github.com/ashraddhansh/dot-matrix-cli"
 content = "A minimal terminal-based ASCII art generator written in Python that converts images into text using adaptive brightness mapping, colorized output, and Sobel edge detection."
 
-[[collection]]
-type = "card"
+[[item]]
 title = "Asteroids"
 link = "https://github.com/ashraddhansh/Asteroids"
 content = "It is the copy of old Asteroids I made to learn OOPs in python."
 
-[[collection]]
-type = "card"
+[[item]]
 title = "Cursor Barebone"
 link = "https://github.com/ashraddhansh/Cursor-Barebone"
 content = "This is a CLI small AI agent project that functions similarly (in a rudimentary way) to LLM-based code agents such as Cursor or Claude."
